@@ -1,0 +1,99 @@
+root{
+    font-size: 16px;
+}
+
+h2,h3,h4,h5{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #e6eff6;
+    font-family: 'Karla', sans-serif;
+        
+}
+
+.card-box{
+    border-radius : 10px 10px 10px 10px;
+    box-shadow: 8px 9px 10px -5px #cacaca;
+    
+     
+}
+.card-box h3{
+    color:#2ab2af;
+    font-weight:700;
+    font-size: calc(1.1rem + .2vw);   
+}
+.card-box h4{
+    color:#c0df34;
+    font-weight:700;
+    font-size: calc(0.6rem + .2vw);    
+}
+
+.card-box p{
+    color:#98a6bd;
+    font-size: calc(0.6rem + .29vw);
+}
+.card-footer h4{
+   color:white;
+   font-weight:700;
+   font-size: calc(0.8rem + .2vw);
+}
+.card-footer-left{
+    background-color: #2ab2af;
+    border-radius : 0 0 0 10px;
+    
+}
+.span-info{
+    font-size: calc(0.8rem + .2vw)
+}
+.card-footer-left p{
+    font-size: calc(0.6rem + .2vw);
+}
+.myButton{
+    width:100%;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    font-weight:700;
+    background-color: #c0df34;
+    box-shadow: 1px 1px 8px 1px #1e7e7d;
+    transition:0.8s; 
+}
+button:hover{
+    transform:scale(0.95);
+}
+
+.button-transparent{
+    background-color:transparent;
+    color:white;
+}
+
+.card-footer-right{
+    background-color: #2EBFBD;
+    border-radius : 0px 0px 10px 0px;
+    
+}
+.card-footer-right h4{
+    font-size: calc(0.8rem + .2vw);
+}
+.card-footer-right p{
+    font-size: calc(0.6rem + .2vw);
+    color:white;
+    line-height:0.25rem;
+}
+
+/*--Media Query--*/
+@Media (max-width: 991px){
+    .card-footer-left{
+       border-radius : 0 0 0 0; 
+    }    
+}
+
+@Media (max-width: 991px){
+    .card-footer-right{
+        border-radius : 0px 0px 10px 10px;
+    }    
+}      
+    
