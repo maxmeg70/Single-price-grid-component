@@ -82,7 +82,7 @@ button:hover{
 .card-footer-right p{
     font-size: calc(0.5rem + 0.5vw); 
     color:white;
-    line-height:0.25rem;
+    line-height:0.5rem;
 }
 
 /*--Media Query--*/
