@@ -22,22 +22,24 @@ body{
 .card-box h3{
     color:#2ab2af;
     font-weight:700;
-    font-size: calc(1.1rem + .2vw);   
+    /* font-size: calc(1.1rem + .2vw); */
+   font-size:1.5vw;  
 }
 .card-box h4{
     color:#c0df34;
     font-weight:700;
-    font-size: calc(0.6rem + .2vw);    
+    font-size:1.2vw;    
 }
 
 .card-box p{
     color:#98a6bd;
-    font-size: calc(0.6rem + .29vw);
+    font-weight:400;
+    font-size:1vw;
 }
 .card-footer h4{
    color:white;
    font-weight:700;
-   font-size: calc(0.8rem + .2vw);
+   font-size:1.2vw; 
 }
 .card-footer-left{
     background-color: #2ab2af;
@@ -48,7 +50,7 @@ body{
     font-size: calc(0.8rem + .2vw)
 }
 .card-footer-left p{
-    font-size: calc(0.6rem + .2vw);
+    font-size:1vw; 
 }
 .myButton{
     width:100%;
@@ -76,10 +78,10 @@ button:hover{
     
 }
 .card-footer-right h4{
-    font-size: calc(0.8rem + .2vw);
+    font-size:1.2vw; 
 }
 .card-footer-right p{
-    font-size: calc(0.6rem + .2vw);
+    font-size:1.2vw; 
     color:white;
     line-height:0.25rem;
 }
